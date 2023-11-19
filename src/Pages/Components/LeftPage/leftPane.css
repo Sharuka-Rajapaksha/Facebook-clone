@@ -1,0 +1,40 @@
+.leftPaneBox{
+   
+    flex: 2;
+}
+
+.leftPaneContainer{
+    padding: 20px;
+}
+
+.leftPaneMenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+
+.leftPaneMenuItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.LeftPageMenuIcon{
+    margin-right: 20px;
+
+}
+
+.pagePic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.pagesYouLiked{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(69, 49, 49);
+}
