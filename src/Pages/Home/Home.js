@@ -12,11 +12,11 @@ export default function Home
        
       <NavBar/>
       
-        <div className="bottomContainer">
-          <LeftPane/>
-          <PostPane/>
-          <RightPane/>
-        </div>
+      <div className="bottomContainer">
+        <LeftPane/>
+        <PostPane/>
+        <RightPane/>
+      </div>
 
     
 

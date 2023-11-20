@@ -56,6 +56,8 @@ export default function LeftPane() {
                 <div className="pagesYouLiked">
                     <h3>Liked Pages</h3>
                 </div>
+                
+                <div className="pageList">
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
                     <span className="pageName">Sharuka - Software Engineer</span>
@@ -88,6 +90,8 @@ export default function LeftPane() {
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
                     <span className="pageName">Sharuka - Software Engineer</span>
                 </li>
+                </div>
+
 
             </div>
         </div>
