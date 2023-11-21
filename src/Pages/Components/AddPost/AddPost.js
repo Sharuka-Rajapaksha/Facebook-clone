@@ -4,6 +4,7 @@ import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import NotStartedIcon from '@mui/icons-material/NotStarted';
+import Button from 'react-bootstrap/Button';
 
 export default function AddPost() {
   return (
@@ -36,10 +37,15 @@ export default function AddPost() {
               <NotStartedIcon htmlColor='Tomato' className='addPhoto'/>
               <span className="addPostOptionText">Go Live</span>
             </div>
-
           </div>
         </div>
-      <button className="postButton">Post</button>
+        
+        <div className="buttonBootStrap">
+              <>
+                <Button href="#">Post</Button> 
+              </>
+        </div>
+
       </div>
     </div>
   )
