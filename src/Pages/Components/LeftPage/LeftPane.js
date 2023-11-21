@@ -1,7 +1,9 @@
 import React from 'react'
 import "./leftPane.css"
-import TextsmsIcon from '@mui/icons-material/Textsms';
-import GroupsIcon from '@mui/icons-material/Groups';
+import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
+import EventIcon from '@mui/icons-material/Event';
+import GroupIcon from '@mui/icons-material/Group';
+
 import FeedIcon from '@mui/icons-material/Feed';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
@@ -16,16 +18,16 @@ export default function LeftPane() {
         <div className="leftPaneContainer">
             <div className="leftPaneMenu">
                 <li className="leftPaneMenuItem">
-                    <TextsmsIcon className='LeftPageMenuIcon'/>
-                    <span className="leftPaneMenuText">Messages</span>
+                    <SmartDisplayIcon htmlColor='blue' className='LeftPageMenuIcon'/>
+                    <span className="leftPaneMenuText">Watch</span>
                 </li>
                 <li className="leftPaneMenuItem">
-                    <GroupsIcon className='LeftPageMenuIcon'/>
-                    <span className="leftPaneMenuText">Groups</span>
+                    <EventIcon htmlColor='red' className='LeftPageMenuIcon'/>
+                    <span className="leftPaneMenuText">Events</span>
                 </li>
                 <li className="leftPaneMenuItem">
-                    <FeedIcon className='LeftPageMenuIcon'/>
-                    <span className="leftPaneMenuText">Feed</span>
+                    <GroupIcon htmlColor='blue' className='LeftPageMenuIcon'/>
+                    <span className="leftPaneMenuText">Friends</span>
                 </li>
                 <li className="leftPaneMenuItem">
                     <CalendarMonthIcon className='LeftPageMenuIcon'/>
@@ -60,15 +62,15 @@ export default function LeftPane() {
                 <div className="pageList">
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">React</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">React BootStrap</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">JavaScript</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
