@@ -5,6 +5,7 @@ import MessageIcon from '@mui/icons-material/Message';
 import SettingsIcon from '@mui/icons-material/Settings';
 import "./navBar.css"
 
+
 export default function NavBar() {
   return (
     <div className="navBarbox">
@@ -26,12 +27,14 @@ export default function NavBar() {
                 <span className="navBarLink1">HomePage</span>
                 <span className="navBarLink2">Profile</span>
             </div>
-            
+
             <div className="navBarIcons">
+
                 <div className="navBarIcon">
                     <PersonIcon/>
                     <span className="iconTag">3</span>
                 </div>
+                
                 <div className="navBarIcon">
                     <MessageIcon/>
                     <span className="iconTag">5</span>

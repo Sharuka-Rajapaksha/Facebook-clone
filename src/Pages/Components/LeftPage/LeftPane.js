@@ -11,6 +11,7 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import Form from 'react-bootstrap/Form';
 
 export default function LeftPane() {
   return (
@@ -60,6 +61,17 @@ export default function LeftPane() {
                 </div>
                 
                 <div className="pageList">
+
+                <Form.Select size="sm">
+                    <option>Pick category from here</option>
+                    <option value="1">Sports</option>
+                    <option value="2">Life Style</option>
+                    <option value="3">Games</option>
+                    <option value="4">News</option>
+                    <option value="5">Travel</option>
+                    <option value="6">Learning</option>
+                </Form.Select>
+
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
                     <span className="pageName">React</span>
@@ -74,23 +86,23 @@ export default function LeftPane() {
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">Football</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">Cricket 360</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">Swimming Highlights</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">Movie Theater</span>
                 </li>
                 <li className="pageListItem">
                     <img src="./Images/1.jpg" alt="" className="pagePic" />
-                    <span className="pageName">Sharuka - Software Engineer</span>
+                    <span className="pageName">Enjoys</span>
                 </li>
                 </div>
 

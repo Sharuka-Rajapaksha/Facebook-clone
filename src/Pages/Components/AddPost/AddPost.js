@@ -5,6 +5,7 @@ import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import NotStartedIcon from '@mui/icons-material/NotStarted';
 import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 export default function AddPost() {
   return (
@@ -19,8 +20,9 @@ export default function AddPost() {
       <hr className='postHr'/>
 
         <div className="addPostBottom">
+
           <div className="addPostOptions">
-            
+          
             <div className="addPostOption">
               <AddAPhotoIcon htmlColor='orange' className='addPhoto'/>
               <span className="addPostOptionText">Add Photo/Video</span>
@@ -39,12 +41,18 @@ export default function AddPost() {
             </div>
           </div>
         </div>
-        
+
         <div className="buttonBootStrap">
-              <>
-                <Button href="#">Post</Button> 
-              </>
+              <><Button href="#">Post</Button></>
         </div>
+
+        <hr className='postHr'/>
+        <>
+          <Form.Label>Range</Form.Label>
+          <Form.Range />
+          <span className="adjustBrightness">Adjust Brightness</span>
+
+        </>
 
       </div>
     </div>
